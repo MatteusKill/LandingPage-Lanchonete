@@ -24,3 +24,33 @@ header{
     color: var(--color-neutra-1);
     font-weight: 600;
 }
+.mobile-btn, .mobile-menu{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    .navbar{
+        display: none;
+    }
+    .mobile-btn{
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    .mobile-menu.active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile-nav-list{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 5px;
+    }
+    .mobile-nav-list .nav-item{
+        text-align: center;
+    }
+}
