@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-width: 100vh;
+    min-height: 100vh;
 
 }
 .area-cards{
@@ -45,7 +45,10 @@
 .card-heart i{
     cursor: pointer;
     color: white;
+}
+icon-heart.ativo{
     transition: background-color 0.3 ease;
+    background-color: red;
 }
 .card-imagem{
     width: 250px;
@@ -73,6 +76,14 @@
     align-items: center;
     gap: 20px;
 }
-.card-heart.active{
-    background-color: red;
+.card-heart i.ativo{
+    color: red;
+}
+@media screen and (max-width:600px){
+    .card-title{
+        font-size: 1.4rem;
+    }
+    .descricao{
+        font-size: 1.4rem;
+    }
 }
