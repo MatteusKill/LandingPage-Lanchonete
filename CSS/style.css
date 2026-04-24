@@ -6,6 +6,7 @@
 @import url('cardapio.css');
 @import url('avaliacao.css');
 @import url('footer.css');
+@import url('carrossel.css');
 
 :root{
     --color-primary-1: #fff9ea;
