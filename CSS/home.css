@@ -74,9 +74,14 @@
         text-align: center;
         align-items: center;
     }
+    .cta-buttons{
+        flex-direction: column;
+    }
+    .cta-buttons a{
+        justify-content: center;
+    }
     .home{
         min-height: 100%;
-
     }
     .title{
         font-size: 1.5rem;
@@ -84,5 +89,8 @@
     }
     .descricao{
         font-size: 2rem;
+    }
+    html, body{
+        overflow-x: hidden;
     }
 }
